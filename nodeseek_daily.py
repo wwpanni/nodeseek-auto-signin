@@ -72,7 +72,7 @@ class Config:
 config = Config()
 
 # 随机评论内容
-randomInputStr = ["不错","有点羡慕了"]
+randomInputStr = ["不错"]
 
 def send_telegram_message(message):
     """
