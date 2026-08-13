@@ -55,6 +55,7 @@ jobs:
           NS_DELAY_MAX: ${{ vars.NS_DELAY_MAX }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          NS_COMMENT: ${{ secrets.NS_COMMENT }}
           HEADLESS: "false"
         run: |
           xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" python nodeseek_daily.py
