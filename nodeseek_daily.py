@@ -72,7 +72,7 @@ class Config:
 config = Config()
 
 # 随机评论内容
-randomInputStr = [" :xhj003: "]
+randomInputStr = [" :xhj003: "," :xhj001: "," :xhj016: "]
 
 def send_telegram_message(message):
     """
